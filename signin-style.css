@@ -36,16 +36,13 @@ body {
 .form > h1 {
     color: #6c584c;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-}
-
-.first, .last {
-    display: flex;
-    position: relative;
+    margin: 20px 0;
 }
 
 .input {
@@ -126,6 +123,22 @@ input {
     padding: 10px 0;
     background-color: #6c584c;
     border: 2px solid #6c584c;
+}
+
+form > h3 {
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+h3 > a {
+    color: #6c584c;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+h3 > a:hover {
+    color: #a3b18a;
 }
 
 .form > h2 {
